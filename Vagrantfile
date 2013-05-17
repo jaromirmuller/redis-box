@@ -48,7 +48,7 @@ Vagrant::Config.run do |config|
   config.vm.forward_port 22, 2222
   
   #REDIS
-  config.vm.forward_port 6900, 6900  
+  config.vm.forward_port 6379, 6379  
 
   # Share an additional folder to the guest VM. The first argument is
   # an identifier, the second is the path on the guest to mount the
